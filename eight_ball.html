@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type='text/css' />
   <title>Magic Eight Ball</title>
 </head>
 
 <body>
-  <input placeholder="Question" id="question"/>
-  <button id='answer'>Magic!</button>
-  <ul id="userAnswer">
+    <h1>Please enter the question of your heart:</h1><br>
+  <input placeholder="Question" id="question" type="text"/>
+  <button onclick="giveAnswer()" id='magicAnswer'>Magic!</button>
+    <br>
+<br>
+    <ul id="userAnswer">
     </ul>
     <script src="eight_ball.js">
 </script>

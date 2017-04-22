@@ -1,0 +1,18 @@
+body {
+    background-image: url(eight-ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: fantasy;
+    text-align: center;      
+}
+
+ul {
+    display: inline-flex;
+}
+
+img {
+    text-align: center;
+}
