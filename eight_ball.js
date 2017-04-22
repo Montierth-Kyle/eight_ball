@@ -28,6 +28,6 @@ function giveAnswer() {
             eightBall = 'You are in grave danger';
             break;
     }
-    var ul = document.getElementById("userAnswer")
- ul.innerHTML = "Your magic answer is: " + eightBall;
+    var div = document.getElementById("output")
+ div.innerHTML = eightBall;
 }

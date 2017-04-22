@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type='text/css' />
-  <title>Magic Eight Ball</title>
+    <title>Magic Eight Ball</title>
 </head>
 
 <body>
     <h1>Please enter the question of your heart:</h1><br>
-  <input placeholder="Question" id="question" type="text"/>
-  <button onclick="giveAnswer()" id='magicAnswer'>Magic!</button>
-    <br>
-<br>
-    <ul id="userAnswer">
-    </ul>
+    <p style="text-align: center;"><input placeholder="Question" id="question" type="text" size="50" />
+        <button onclick="giveAnswer()" id='magicAnswer'>Magic!</button></p>
+    <div style="text-align: center;" id="output"></div>
     <script src="eight_ball.js">
-</script>
+
+
+    </script>
 </body>
 </body>
+
 </html>
